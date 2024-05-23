@@ -1,0 +1,12 @@
+body {margin:0; padding:20px;}
+h1, h2, h3, h4, h5 {margin:0;padding:0;}
+h1 em, h2 em, h3 em, h4 em, h5 em {margin:0;padding:0;}
+img {display: none;}
+h1 {font-size:40px;}
+.about {margin:0px;padding:0;}
+	.about .contact {display:none;}
+	.about h4 {display:none;}
+.resume {margin:0;padding:0;}
+	.resume h2 {border-top:1px solid #ccc;padding-top:20px; margin-top:20px;}
+	.resume h6, .resume footer span {display:none;}
+	.resume .job {margin-top:20px; padding-top:10px;}

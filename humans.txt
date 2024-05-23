@@ -1,0 +1,9 @@
+/* JENNA */
+User Experience Designer: Jenna Marino
+Twitter: @jennamarino
+
+/* SITE */
+Last update: 2016/06/21
+Language: English
+Doctype: HTML5
+IDE: Sketch, Atom, ImageOptim

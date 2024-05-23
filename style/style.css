@@ -1,0 +1,100 @@
+body {color:#222; font: 19px/1.4 sans-serif; margin:0; padding:0;background:#80C22E url("../img/jenna-marino.jpg") center top no-repeat; background-size:initial; background-attachment:fixed;}
+h1, h2, h3, h4, h5, h6 {margin:0;}
+h1 em, h2 em {
+    font-family: 'Oswald', sans-serif;
+    background-color: #80C22E;
+    padding:2px 10px;
+    font-style: normal;
+    text-transform:uppercase;
+    color:#222;
+    font-weight:bolder;
+}
+
+h1 {font-size:50px; font-size:10.0vw;}
+
+.content {font-size:.8em;}
+
+/* About Content Styles */
+.about {margin:0; padding:40px 40px; margin-top:240px;}
+	.about h4 {font: 19px 'Permanent Marker', cursive; color:#222; margin:10px 0;}
+	.about h4 em {background-color:#222; color:#fff; font-style:normal; padding:2px 10px; line-height:30px; font-weight:normal;}
+	.about ul {margin:0;padding:0;}
+		.about ul li {list-style:none; display:inline;}
+		.about ul li a {display:block; border-radius:50%; text-indent:-5000px; height:50px; width:50px;margin:5px;background:#222 url("../img/twitter.svg") 0 0 no-repeat;float:left;}
+		.about ul li a:hover {background-color:#05a9e5;}
+		.about ul li.twitter a {background-image: url("../img/twitter.svg");}
+		.about ul li.linkedin a {background-image: url("../img/linkedin.svg");}
+		.about ul li.instagram a {background-image: url("../img/instagram.svg"); display:none;}
+		.about ul li.email a {background-image: url("../img/mail.svg");}
+		.about ul li.facebook a {background-image: url("../img/facebook.svg");}
+        .about ul li.dribbble a {background-image: url("../img/dribbble.svg");}
+
+/* Resume Content Styles */
+.resume {background-color:#fff;padding:40px 40px;}
+	.resume h2 {padding-top:12px;}
+	.resume h3 {margin-top:10px;}
+    .resume h3 a {
+        color: #000;
+        text-decoration: none;
+    }
+    .resume h3 a:hover {
+        text-decoration: underline;
+    }
+	.resume h4 {padding-right:100px;}
+	.resume h5 {font-weight:normal; color:#333;}
+	.resume h6 {
+        font: normal 1.4em 'Permanent Marker', cursive;
+        /*font-size: 4.0vw;*/
+        color: #222;
+    }
+	.resume h6 em {background-color:#ffde00;}
+	.resume h6 strong {color:#80C22E;}
+	.resume ul li {color:#444; line-height:1.3em;margin-bottom:6px;font-size:.9em;}
+
+    .resume .job {
+        background: transparent url("../img/logo-univision.png") right 30px no-repeat;
+        background-size: 60px 60px;
+        border-top: 1px solid #e2e2e2;
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+
+    .resume .perfectsense {background-image: url("../img/logo-perfect-sense.png");}
+    .resume .hanerino {background-image: url("../img/logo-hanerino.png");}
+    .resume .univision {background-image: url("../img/logo-univision.png");}
+    .resume .blockbuster {background-image: url("../img/logo-blockbuster.png");}
+    .resume .huntgather {background-image: url("../img/logo-hunt-gather.png");}
+    .resume .valassis {background-image: url("../img/logo-valassis.png");}
+    .resume .aol {background-image: url("../img/logo-aol.png");}
+
+    .resume .hospital {background-image: url("../img/logo-hospital.png");}
+    .resume .aiga {background-image: url("../img/logo-aiga.png");}
+
+    .resume .education h3 {margin-top:20px;}
+	.resume footer {border-top:1px solid #e2e2e2; margin-top:30px; padding:20px 20px 0px 20px; font-style: italic;}
+		.resume footer span {display:block;font-size:.7em;margin-top:5px;color:#ccc;}
+		.resume footer span a {text-transform:uppercase; color:#444;}
+		.resume footer span a:hover {text-decoration:none;color:#05a9e5;}
+	.resume .summary h6 {margin-bottom:-10px;}
+	.resume .summary .team {display:block;}
+	.resume .summary .fadein { position:relative; height:300px; display:none;}
+	.resume .summary .fadein img { position:absolute; left:0; top:0; width:100%;}
+
+/* ---- clearfix ---- */
+.clearfix:after {content: ''; display: block; clear: both;}
+
+/* ---- Media Styles ---- */
+@media screen and (min-width: 900px) {
+	body {background-position: -250px 0; background-size:cover;}
+	h1 {font-size:50px;}
+	.about {width:550px; position:fixed; left:0px; bottom:0px; margin:0;}
+		.about ul {margin:0;}
+		.about ul li.instagram a {display:block;}
+	.resume {width:550px; float:right; box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);}
+		.resume h2 {margin-left:-65px; background:transparent url("../img/bg_carrot.png") 0 0 no-repeat;}
+		.resume h4 {padding-right:0;}
+		.resume h6 {font-size:1.9em;}
+		.resume h6 em {background:#ffde00 url("../img/bg_slant.png") -12px 0px no-repeat;border-radius:0 10% 30% 0;}
+		.resume .summary .team {display:none;}
+		.resume .summary .fadein {display:block;}
+}
